@@ -1,0 +1,98 @@
+#container_footer{
+        text-align: center;
+        margin: auto;
+        bottom: 0;
+}
+
+.photo{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+.photo img{
+    width: 100px;
+}
+
+.photo p{
+    font-size: smaller;
+    margin-left: 10px;
+}
+
+
+.formulaire{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(242, 162, 190);
+    justify-content: center;
+}
+
+.loupe{
+    width: 15px;
+}
+
+#global{
+    display: block;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color:#FCDEDE;
+}
+
+input[type=submit]:active, input[type=reset]:active {
+    background-color:#FCDEDE;
+    box-shadow:1px 1px 1px #D83F3D inset;
+}
+
+input, textarea, select, option {
+    background-color:#FFF3F3;
+}
+
+#submit input{
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:300px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+.nav-form{
+display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-trait{
+    display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: var(--bs-nav-link-color);
+        text-decoration: none;
+        transition: color .15s ease-in-out, background-color.15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+@media screen and (min-width: 480px){
+    #jeux{
+        display: flex;
+    }
+
+    .photos{
+        flex: 1;
+        min-width: 300px;   
+    }
+
+}
